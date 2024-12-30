@@ -15,7 +15,7 @@ https://github.com/KittenBot/pxt-apds9960/tree/master
 - **ADPS9960 Get B** : Get B Color interval 0-4097
 - **ADPS9960 Get C** : Get C (Clear) Color interval 0-4097
 
-#Schematic for Microbit:
+# Schematic for Microbit:
 
 ADPS9960 module --> Microbit
 
