@@ -17,16 +17,16 @@ https://github.com/KittenBot/pxt-apds9960/tree/master
 
 # Schematic for Microbit:
 
-ADPS9960 module --> Microbit
+**ADPS9960 module** --> Microbit
 
-UCC --> 3V
-GND --> GND
+**UCC** --> 3V
+**GND** --> GND
 
-SDA --> Port20 (SDA i2c)
-SCL --> Port19 (SCL i2c)
+**SDA** --> Port20 (SDA i2c)
+**SCL** --> Port19 (SCL i2c)
 
-INT --> not connect
-VL  --> not connect
+**INT** --> not connect
+**VL**  --> not connect
 
 
 # pxt-apds9960
