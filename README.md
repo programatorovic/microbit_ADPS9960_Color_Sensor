@@ -4,16 +4,16 @@ This extension is based on this project: pxt-apds9960
 https://github.com/KittenBot/pxt-apds9960/tree/master
 
 # Blocks from pxt-adps9960:
-- ADPS9960 Init ........ Initialisation ADPS9960 Hardware extension
-- ID ................... Get ID HW Extension, if ID<>0 then ok
-- ADPS9960 Color Mode .. Set ADP9960 for Color Mode
-- ADPS9960 Get HUE ..... Get HUE Color
+- **ADPS9960 Init** : Initialisation ADPS9960 Hardware extension
+- **ID** : Get ID HW Extension, if ID<>0 then ok
+- **ADPS9960 Color Mode** : Set ADP9960 for Color Mode
+- **ADPS9960 Get HUE** : Get HUE Color
 
 # Added blocks:
-- ADPS9960 Get R ....... Get R Color interval 0-4097
-- ADPS9960 Get G ....... Get G Color interval 0-4097
-- ADPS9960 Get B ....... Get B Color interval 0-4097
-- ADPS9960 Get C ....... Get C (Clear) Color interval 0-4097
+- **ADPS9960 Get R** : Get R Color interval 0-4097
+- **ADPS9960 Get G** : Get G Color interval 0-4097
+- **ADPS9960 Get B** : Get B Color interval 0-4097
+- **ADPS9960 Get C** : Get C (Clear) Color interval 0-4097
 
 #Schematic for Microbit:
 
