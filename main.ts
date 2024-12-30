@@ -131,6 +131,10 @@ namespace apds9960 {
         let chipid = i2cread(ADDR, APDS9960_ID);
         return chipid;
     }
+
+    /**
+     * Set Color Mode
+     */
     //% blockId=apds9960_colormode block="APDS9960 Color Mode"
     //% weight=98
     export function ColorMode(): void {
@@ -138,9 +142,12 @@ namespace apds9960 {
         i2cwrite(ADDR, APDS9960_ENABLE, tmp);
     }
 
-    //% blockId=apds9960_readcolor block="APDS9960 Get Color HUE"
+    /**
+     * Get HUE
+     */
+    //% blockId=apds9960_readcolor block="APDS9960 Get HUE"
     //% weight=98
-    export function ReadColor(): number {
+    export function ReadColorHUE(): number {
         let tmp = i2cread(ADDR, APDS9960_STATUS) & 0x1;
         while(!tmp){
             basic.pause(5);
@@ -159,6 +166,9 @@ namespace apds9960 {
         return hue
     }
 
+    /**
+     * Get Red Color
+     */
     //% blockId=apds9960_readcolor block="APDS9960 Get R"
     //% weight=98
     export function ReadColorR(): number {
@@ -180,6 +190,9 @@ namespace apds9960 {
         return r
     }
 
+    /**
+     * Get Green Color
+     */
     //% blockId=apds9960_readcolor block="APDS9960 Get G"
     //% weight=98
     export function ReadColorG(): number {
@@ -201,6 +214,9 @@ namespace apds9960 {
         return g
     }
 
+    /**
+     * Get Blue Color
+     */
     //% blockId=apds9960_readcolor block="APDS9960 Get B"
     //% weight=98
     export function ReadColorB(): number {
@@ -222,6 +238,9 @@ namespace apds9960 {
         return b
     }
 
+    /**
+     * Get Clear Color
+     */
     //% blockId=apds9960_readcolor block="APDS9960 Get C"
     //% weight=98
     export function ReadColorC(): number {

@@ -1,6 +1,6 @@
 {
     "name": "apds9960",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "APDS9960 Extension for microbit Color Sensor",
     "license": "MIT",
     "dependencies": {
