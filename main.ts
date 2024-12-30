@@ -145,7 +145,7 @@ namespace apds9960 {
     /**
      * Get HUE
      */
-    //% blockId=apds9960_readcolor block="APDS9960 Get HUE"
+    //% blockId=apds9960_readcolor_HUE block="APDS9960 Get HUE"
     //% weight=98
     export function ReadColorHUE(): number {
         let tmp = i2cread(ADDR, APDS9960_STATUS) & 0x1;
@@ -169,7 +169,7 @@ namespace apds9960 {
     /**
      * Get Red Color
      */
-    //% blockId=apds9960_readcolor block="APDS9960 Get R"
+    //% blockId=apds9960_readcolor_R block="APDS9960 Get R"
     //% weight=98
     export function ReadColorR(): number {
         let tmp = i2cread(ADDR, APDS9960_STATUS) & 0x1;
@@ -193,7 +193,7 @@ namespace apds9960 {
     /**
      * Get Green Color
      */
-    //% blockId=apds9960_readcolor block="APDS9960 Get G"
+    //% blockId=apds9960_readcolor_G block="APDS9960 Get G"
     //% weight=98
     export function ReadColorG(): number {
         let tmp = i2cread(ADDR, APDS9960_STATUS) & 0x1;
@@ -217,7 +217,7 @@ namespace apds9960 {
     /**
      * Get Blue Color
      */
-    //% blockId=apds9960_readcolor block="APDS9960 Get B"
+    //% blockId=apds9960_readcolor_B block="APDS9960 Get B"
     //% weight=98
     export function ReadColorB(): number {
         let tmp = i2cread(ADDR, APDS9960_STATUS) & 0x1;
@@ -241,7 +241,7 @@ namespace apds9960 {
     /**
      * Get Clear Color
      */
-    //% blockId=apds9960_readcolor block="APDS9960 Get C"
+    //% blockId=apds9960_readcolor_C block="APDS9960 Get C"
     //% weight=98
     export function ReadColorC(): number {
         let tmp = i2cread(ADDR, APDS9960_STATUS) & 0x1;
